@@ -1,0 +1,1534 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr_package_search.cmake:73 (find_package)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfigVersion.cmake:118 (check_zephyr_package)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "0.0.0"
+      version_complete: "0.0.0"
+      exact: true
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Zephyr"
+      search_paths:
+        - "C:/zephyrproject/zephyr"
+        - "C:/zephyrproject"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr_package_search.cmake:73 (find_package)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:140 (check_zephyr_package)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "0.0.0"
+      version_complete: "0.0.0"
+      exact: true
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Zephyr"
+      search_paths:
+        - "C:/zephyrproject/zephyr"
+        - "C:/zephyrproject"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+        mode: "none?"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:28 (find_package)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:148 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "ZephyrBuildConfiguration"
+    configs:
+      -
+        filename: "ZephyrBuildConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrbuild-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrBuild"
+      search_paths:
+        - "C:/zephyrproject/zephyr/../*"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.git/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.git/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.venv/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.venv/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.vscode/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.vscode/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.west/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/.west/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/bootloader/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/bootloader/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/modules/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/modules/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/New_Projects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/New_Projects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/tools/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/tools/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/zephyr-sdk-0.17.4/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:41 (find_package)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:148 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "ZephyrAppConfiguration"
+    configs:
+      -
+        filename: "ZephyrAppConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrapp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrApp"
+      search_paths:
+        - "C:/zephyrproject/New_Projects/new_learing_blink_led"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/New_Projects/new_learing_blink_led/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/New_Projects/new_learing_blink_led/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/cmake/modules/python.cmake:26 (find_program)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:148 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python"
+    candidate_directories:
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/Python314/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/bin/"
+      - "C:/Program Files/OpenSSL-Win64/bin/"
+      - "C:/CMake/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/FAST/"
+      - "C:/FAST/ffmpeg/bin/"
+      - "C:/Ninja/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/rchoksi/AppData/Roaming/npm/"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/python.com"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/python.exe"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/python"
+      - "C:/Program Files/Python314/Scripts/python.com"
+      - "C:/Program Files/Python314/Scripts/python.exe"
+      - "C:/Program Files/Python314/Scripts/python"
+      - "C:/Program Files/Python314/python.com"
+    found: "C:/Program Files/Python314/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "C:/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:148 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Program Files/Python314/"
+    searched_directories:
+      - "C:/Program Files/Python314/python3.14_d.com"
+      - "C:/Program Files/Python314/python3.14_d.exe"
+      - "C:/Program Files/Python314/python3.14_d"
+      - "C:/Program Files/Python314/python3_d.com"
+      - "C:/Program Files/Python314/python3_d.exe"
+      - "C:/Program Files/Python314/python3_d"
+      - "C:/Program Files/Python314/python_d.com"
+      - "C:/Program Files/Python314/python_d.exe"
+      - "C:/Program Files/Python314/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/cmake/modules/ccache.cmake:10 (find_program)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:148 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Program Files/Python314/Scripts/"
+      - "C:/Program Files/Python314/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/bin/"
+      - "C:/Program Files/OpenSSL-Win64/bin/"
+      - "C:/CMake/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/FAST/"
+      - "C:/FAST/ffmpeg/bin/"
+      - "C:/Ninja/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/rchoksi/AppData/Roaming/npm/"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/ccache.com"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/ccache.exe"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/ccache"
+      - "C:/Program Files/Python314/Scripts/ccache.com"
+      - "C:/Program Files/Python314/Scripts/ccache.exe"
+      - "C:/Program Files/Python314/Scripts/ccache"
+      - "C:/Program Files/Python314/ccache.com"
+      - "C:/Program Files/Python314/ccache.exe"
+      - "C:/Program Files/Python314/ccache"
+      - "C:/Program Files/Python311/Scripts/ccache.com"
+      - "C:/Program Files/Python311/Scripts/ccache.exe"
+      - "C:/Program Files/Python311/Scripts/ccache"
+      - "C:/Program Files/Python311/ccache.com"
+      - "C:/Program Files/Python311/ccache.exe"
+      - "C:/Program Files/Python311/ccache"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache"
+      - "C:/Windows/System32/ccache.com"
+      - "C:/Windows/System32/ccache.exe"
+      - "C:/Windows/System32/ccache"
+      - "C:/Windows/ccache.com"
+      - "C:/Windows/ccache.exe"
+      - "C:/Windows/ccache"
+      - "C:/Windows/System32/wbem/ccache.com"
+      - "C:/Windows/System32/wbem/ccache.exe"
+      - "C:/Windows/System32/wbem/ccache"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache"
+      - "C:/Windows/System32/OpenSSH/ccache.com"
+      - "C:/Windows/System32/OpenSSH/ccache.exe"
+      - "C:/Windows/System32/OpenSSH/ccache"
+      - "C:/Program Files/dotnet/ccache.com"
+      - "C:/Program Files/dotnet/ccache.exe"
+      - "C:/Program Files/dotnet/ccache"
+      - "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/bin/ccache.com"
+      - "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/bin/ccache.exe"
+      - "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/bin/ccache"
+      - "C:/Program Files/OpenSSL-Win64/bin/ccache.com"
+      - "C:/Program Files/OpenSSL-Win64/bin/ccache.exe"
+      - "C:/Program Files/OpenSSL-Win64/bin/ccache"
+      - "C:/CMake/bin/ccache.com"
+      - "C:/CMake/bin/ccache.exe"
+      - "C:/CMake/bin/ccache"
+      - "C:/msys64/mingw64/bin/ccache.com"
+      - "C:/msys64/mingw64/bin/ccache.exe"
+      - "C:/msys64/mingw64/bin/ccache"
+      - "C:/Program Files/Git/bin/ccache.com"
+      - "C:/Program Files/Git/bin/ccache.exe"
+      - "C:/Program Files/Git/bin/ccache"
+      - "C:/Program Files/nodejs/ccache.com"
+      - "C:/Program Files/nodejs/ccache.exe"
+      - "C:/Program Files/nodejs/ccache"
+      - "C:/ProgramData/chocolatey/bin/ccache.com"
+      - "C:/ProgramData/chocolatey/bin/ccache.exe"
+      - "C:/ProgramData/chocolatey/bin/ccache"
+      - "C:/FAST/ccache.com"
+      - "C:/FAST/ccache.exe"
+      - "C:/FAST/ccache"
+      - "C:/FAST/ffmpeg/bin/ccache.com"
+      - "C:/FAST/ffmpeg/bin/ccache.exe"
+      - "C:/FAST/ffmpeg/bin/ccache"
+      - "C:/Ninja/ccache.com"
+      - "C:/Ninja/ccache.exe"
+      - "C:/Ninja/ccache"
+      - "C:/Program Files/7-Zip/ccache.com"
+      - "C:/Program Files/7-Zip/ccache.exe"
+      - "C:/Program Files/7-Zip/ccache"
+      - "C:/Program Files/TortoiseGit/bin/ccache.com"
+      - "C:/Program Files/TortoiseGit/bin/ccache.exe"
+      - "C:/Program Files/TortoiseGit/bin/ccache"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/ccache.com"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/ccache.exe"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/ccache"
+      - "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/bin/ccache.com"
+      - "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/bin/ccache.exe"
+      - "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/bin/ccache"
+      - "C:/Users/rchoksi/AppData/Roaming/npm/ccache.com"
+      - "C:/Users/rchoksi/AppData/Roaming/npm/ccache.exe"
+      - "C:/Users/rchoksi/AppData/Roaming/npm/ccache"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ccache.com"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ccache.exe"
+      - "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/zephyrproject/build/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python314/Scripts/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python314/Scripts/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python314/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python314/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python311/Scripts/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python311/Scripts/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python311/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python311/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Nordic Semiconductor/nrf-command-line-tools/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenSSL-Win64/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenSSL-Win64/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/CMake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/CMake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/FAST/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/FAST/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/FAST/ffmpeg/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/FAST/ffmpeg/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Ninja/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Ninja/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/7-Zip/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/7-Zip/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/TortoiseGit/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/TortoiseGit/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/rchoksi/AppData/Local/Microsoft/WindowsApps/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/rchoksi/AppData/Local/Programs/Microsoft VS Code/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/rchoksi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+      mode: "config"
+      version: "4.3.99"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "C:/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Program Files/Python314/"
+    searched_directories:
+      - "C:/Program Files/Python314/python3.15_d.com"
+      - "C:/Program Files/Python314/python3.15_d.exe"
+      - "C:/Program Files/Python314/python3.15_d"
+      - "C:/Program Files/Python314/python3.14_d.com"
+      - "C:/Program Files/Python314/python3.14_d.exe"
+      - "C:/Program Files/Python314/python3.14_d"
+      - "C:/Program Files/Python314/python3.13_d.com"
+      - "C:/Program Files/Python314/python3.13_d.exe"
+      - "C:/Program Files/Python314/python3.13_d"
+      - "C:/Program Files/Python314/python3.12_d.com"
+      - "C:/Program Files/Python314/python3.12_d.exe"
+      - "C:/Program Files/Python314/python3.12_d"
+      - "C:/Program Files/Python314/python3.11_d.com"
+      - "C:/Program Files/Python314/python3.11_d.exe"
+      - "C:/Program Files/Python314/python3.11_d"
+      - "C:/Program Files/Python314/python3.10_d.com"
+      - "C:/Program Files/Python314/python3.10_d.exe"
+      - "C:/Program Files/Python314/python3.10_d"
+      - "C:/Program Files/Python314/python3_d.com"
+      - "C:/Program Files/Python314/python3_d.exe"
+      - "C:/Program Files/Python314/python3_d"
+      - "C:/Program Files/Python314/python_d.com"
+      - "C:/Program Files/Python314/python_d.exe"
+      - "C:/Program Files/Python314/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Ninja"
+        - "C:\\flutter\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Java\\jre1.8.0_481\\bin\\javaw.exe"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\Python\\Python311\\Scripts"
+        - "C:\\Users\\rchoksi\\.dotnet\\tools"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Flutter\\flutter\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\PowerToys\\DSCModules\\"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "C:/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Program Files/Python314/"
+    searched_directories:
+      - "C:/Program Files/Python314/python3.15_d.com"
+      - "C:/Program Files/Python314/python3.15_d.exe"
+      - "C:/Program Files/Python314/python3.15_d"
+      - "C:/Program Files/Python314/python3.14_d.com"
+      - "C:/Program Files/Python314/python3.14_d.exe"
+      - "C:/Program Files/Python314/python3.14_d"
+      - "C:/Program Files/Python314/python3.13_d.com"
+      - "C:/Program Files/Python314/python3.13_d.exe"
+      - "C:/Program Files/Python314/python3.13_d"
+      - "C:/Program Files/Python314/python3.12_d.com"
+      - "C:/Program Files/Python314/python3.12_d.exe"
+      - "C:/Program Files/Python314/python3.12_d"
+      - "C:/Program Files/Python314/python3.11_d.com"
+      - "C:/Program Files/Python314/python3.11_d.exe"
+      - "C:/Program Files/Python314/python3.11_d"
+      - "C:/Program Files/Python314/python3.10_d.com"
+      - "C:/Program Files/Python314/python3.10_d.exe"
+      - "C:/Program Files/Python314/python3.10_d"
+      - "C:/Program Files/Python314/python3_d.com"
+      - "C:/Program Files/Python314/python3_d.exe"
+      - "C:/Program Files/Python314/python3_d"
+      - "C:/Program Files/Python314/python_d.com"
+      - "C:/Program Files/Python314/python_d.exe"
+      - "C:/Program Files/Python314/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Ninja"
+        - "C:\\flutter\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Java\\jre1.8.0_481\\bin\\javaw.exe"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\Python\\Python311\\Scripts"
+        - "C:\\Users\\rchoksi\\.dotnet\\tools"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Flutter\\flutter\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\PowerToys\\DSCModules\\"
+...
